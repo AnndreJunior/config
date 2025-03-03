@@ -27,6 +27,6 @@ keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)
 
 -- Diagnostics
-keymap.set("n", "<C-j>", function()
+keymap.set("n", "<C-k>", function()
   vim.diagnostic.goto_next()
 end, opts)
