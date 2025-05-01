@@ -140,9 +140,12 @@ return {
     end,
     keys = {
       {
-
         "<leader>d",
         "<cmd>NvimTreeClose<cr><cmd>tabnew<cr><bar><bar><cmd>DBUI<cr>",
+      },
+      {
+        "<leader>do",
+        "<cmd>:DBUIToggle<cr>",
       },
     },
   },
